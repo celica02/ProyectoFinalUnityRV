@@ -739,7 +739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5828235245205691430}
   m_Layer: 0
-  m_Name: Weeds 1
+  m_Name: Weeds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -753,8 +753,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2674362549416467758}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.247276, y: 22.52671, z: 27.860271}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalPosition: {x: 15.247276, y: 22.8, z: 27.860271}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 2692698909969264737}
   - {fileID: 8439873085059049265}
