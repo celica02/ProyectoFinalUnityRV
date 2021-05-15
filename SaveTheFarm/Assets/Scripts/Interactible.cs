@@ -19,6 +19,7 @@ public class Interactible : MonoBehaviour
         //states[1] = Resources.Load("Prefabs/weeds") as GameObject;
         states[2] = Resources.Load("Prefabs/Hole") as GameObject;
         states[3] = Resources.Load("Prefabs/Dirt") as GameObject;
+        //states[4] = Resources.Load("Prefabs/Pumpkins_Growable") as GameObject;
 
         wateredSoil = Resources.Load("Prefabs/WateredSoil") as GameObject;
 
