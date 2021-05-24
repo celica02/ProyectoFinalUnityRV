@@ -12,6 +12,7 @@ public class Interactible : MonoBehaviour
     int currentState = 0;
     bool watered = false;
 
+
     // Start is called before the first frame update
     void Start()
     {
