@@ -34,7 +34,7 @@ public class TomatoMud : MonoBehaviour
         {
             obj = Instantiate(states[currentState]);
             obj.transform.position = new Vector3(gameObject.transform.position.x,
-                                                     obj.transform.position.y,
+                                                     gameObject.transform.position.y,
                                                      gameObject.transform.position.z);
         }
     }
@@ -48,6 +48,10 @@ public class TomatoMud : MonoBehaviour
             {
                 if (obj != null)
                     Destroy(obj);
+                if(currentState == 2)
+                {
+                    Destroy(col.gameObject);
+                }
                 currentState++;
                 if (states[currentState] != null)
                 {
@@ -56,7 +60,7 @@ public class TomatoMud : MonoBehaviour
 
                     obj = Instantiate(states[currentState]);
                     obj.transform.position = new Vector3(gameObject.transform.position.x,
-                                                         obj.transform.position.y,
+                                                         gameObject.transform.position.y + 0.3f,
                                                          gameObject.transform.position.z);
 
                     if (currentState == 4 && watered)
@@ -68,7 +72,7 @@ public class TomatoMud : MonoBehaviour
             {
                 wateredSoil = Instantiate(wateredSoil); //Se queda para siempre así, hay ver cuándo queremos que vuelva a estar seco.
                 wateredSoil.transform.position = new Vector3(gameObject.transform.position.x,
-                                                             wateredSoil.transform.position.y,
+                                                             gameObject.transform.position.y+0.05f,
                                                              gameObject.transform.position.z);
                 watered = true;
                 if (currentState == 4)

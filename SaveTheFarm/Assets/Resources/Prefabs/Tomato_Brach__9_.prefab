@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transparentMat: {fileID: 2100000, guid: 6f327f43b80db844b8bf472a2e629fb0, type: 2}
-  redMat: {fileID: 0}
+  redMat: {fileID: 2100000, guid: d44410fd49a809341a61a70f8470045e, type: 2}
 --- !u!65 &8355973176939002929
 BoxCollider:
   m_ObjectHideFlags: 0
